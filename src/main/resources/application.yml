@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: local
+    active: blue
     group:
       local: local_server, common, secret
       blue: blue_server, common, secret
@@ -26,7 +26,7 @@ spring:
 server:
   port: 8080
 client:
-  address: http://localhost:3000
+  address: https://d2rbwqvcx2p2xt.cloudfront.net
 
 ---
 
@@ -37,7 +37,7 @@ spring:
 server:
   port: 9090
 client:
-  address: http://localhost:3000
+  address: https://d2rbwqvcx2p2xt.cloudfront.net
 ---
 
 spring:
